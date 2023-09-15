@@ -1,0 +1,80 @@
+
+    html {
+        height: 130%;
+    }
+    body {
+        margin: 0;
+        background-color: gray;
+        height: 100%;
+    }
+
+    .wrapper {
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 1%;
+        width: 80%;
+        height: 100%;
+    }
+
+    .slider {
+        width: 100%;
+        overflow: hidden;
+    }
+
+    .sliderLine {
+        width: 400%;
+        display: flex;
+    }
+
+    .mem {
+        width: 100%;
+    }
+
+    .memImg {
+        width: 100%;
+        border-radius: 2%;
+    }
+
+    .textAndButtonWrap {
+        margin-top: 3%;
+        width: 100%;
+        height: 5%;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .memTextDiv {
+        width: 40%;
+    }
+
+    .memText {
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 200%;
+        margin-top: 0;
+    }
+
+    .memButtonDiv {
+        width: 20%;
+        height: 80%;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .memButtonWrap {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+    }
+
+    .memButton {
+        width: 50%;
+        height: 50%;
+        background-color: rgb(43, 47, 61);
+        border-radius: 50%;
+    }
+    
+    .memButtonWrap:hover {
+    }
