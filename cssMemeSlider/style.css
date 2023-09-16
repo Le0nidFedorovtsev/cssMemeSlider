@@ -58,6 +58,7 @@
     .sliderLine {
         width: 400%;
         display: flex;
+        transition: 1s;
     }
 
     .mem {
@@ -66,7 +67,6 @@
 
     .memImg {
         width: 100%;
-        border-radius: 2%;
     }
 
     .textAndButtonWrap {
