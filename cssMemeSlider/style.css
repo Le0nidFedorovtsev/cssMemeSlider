@@ -1,4 +1,38 @@
 
+    @media (min-width: 500px) and (max-width: 768px) {
+        .textAndButtonWrap {
+            flex-direction: column;
+            height: 10% !important;
+        }
+
+        .memButtonDiv {
+            order: -1;
+            align-self: center !important;
+        }
+
+        .memText {
+            margin-top: 10%;
+            margin-bottom: 0;
+            font-size: 150% !important;
+        }
+
+        .memTextDiv {
+            height: 80%;
+        }
+
+        .memButton {
+            height: 30% !important;
+        }
+
+        
+    }
+
+    @media (min-width: 500px) and (max-width: 600px) {
+        .memButton {
+            height: 20% !important;
+        }
+    }
+
     html {
         height: 130%;
     }
@@ -76,5 +110,7 @@
         border-radius: 50%;
     }
     
-    .memButtonWrap:hover {
+    .memButtonWrap:hover .memButton{
+        background-color: black;
     }
+
