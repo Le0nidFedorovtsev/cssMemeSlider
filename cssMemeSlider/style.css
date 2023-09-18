@@ -8,12 +8,17 @@
         .memButtonDiv {
             order: -1;
             align-self: center !important;
-            height: 300% !important;
+            height: 50% !important;
+        }
+
+        span {
+            height: 30% !important;
         }
 
         .memTextDiv {
             width: 100%;
-            height: 100% !important;
+            height: 20% !important;
+            margin-top: 3% !important;
         }
 
         .memText {
@@ -112,7 +117,7 @@
         width: 20%;
         height: 80%;
         display: flex;
-        justify-content: space-between;
+        margin-top: 0.1%;
     }
 
     .memButtonWrap {
@@ -125,13 +130,24 @@
     }
 
     .memButton {
+        display: none;
+    }
+
+    span {
+        display: flex;
         width: 50%;
         height: 50%;
-        background-color: rgb(43, 47, 61);
+        margin: 0 auto;
         border-radius: 50%;
+        border: 0.15em solid #fff;
+        background-color: #fff;
     }
-    .labelButton3:active {
-        background-color: black;
+
+    label {
+        width: 30%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
 
 
@@ -160,3 +176,30 @@
     .wrapper:has(#button4:checked) .textWrapper{
         transform: translateY(-84%);
     }
+
+    .wrapper:has(#button1:checked) .span1{
+        background: black;
+    }
+    .wrapper:has(#button2:checked) .span2{
+        background: black;
+    }
+    .wrapper:has(#button3:checked) .span3{
+        background: black;
+    }
+    .wrapper:has(#button4:checked) .span4{
+        background: black;
+    }
+
+    .wrapper:has(#button1:hover) .span1{
+        background: black;
+    }
+    .wrapper:has(#button2:hover) .span2{
+        background: black;
+    }
+    .wrapper:has(#button3:hover) .span3{
+        background: black;
+    }
+    .wrapper:has(#button4:hover) .span4{
+        background: black;
+    }
+
