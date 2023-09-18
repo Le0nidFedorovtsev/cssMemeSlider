@@ -203,3 +203,16 @@
         background: black;
     }
 
+    .wrapper:has(#button1:active) .span1{
+        background: black;
+    }
+    .wrapper:has(#button2:active) .span2{
+        background: black;
+    }
+    .wrapper:has(#button3:active) .span3{
+        background: black;
+    }
+    .wrapper:has(#button4:active) .span4{
+        background: black;
+    }
+
