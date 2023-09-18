@@ -1,5 +1,5 @@
 
-    @media (min-width: 600px) and (max-width: 768px) {
+    @media (min-width: 500px) and (max-width: 768px) {
         .textAndButtonWrap {
             flex-direction: column;
             height: 10% !important;
@@ -22,12 +22,6 @@
 
         .memButton {
             height: 30% !important;
-        }
-    }
-
-    @media (min-width: 500px) and (max-width: 600px) {
-        .memButton {
-            height: 20% !important;
         }
     }
 
@@ -136,48 +130,33 @@
         background-color: rgb(43, 47, 61);
         border-radius: 50%;
     }
-
-    .memButton.active {
-        background-color: black;
-    }
-    
-    .memButtonWrap:hover .memButton{
+    .labelButton3:active {
         background-color: black;
     }
 
-    input:checked {
-        outline: 0.5rem solid white;
-        outline-offset: -0.9rem;
-    }
 
-    input:checked {
-        outline: 0.2rem solid white;
-        outline-offset: -0.5rem;
-    }
-
-
-    .wrapper:has(#radio-btn1:checked) .sliderLine {
+    .wrapper:has(#button1:checked) .sliderLine {
         margin-left: 0%;
     }
-    .wrapper:has(#radio-btn2:checked) .sliderLine {
+    .wrapper:has(#button2:checked) .sliderLine {
         margin-left: -100%;
     }
-    .wrapper:has(#radio-btn3:checked) .sliderLine {
+    .wrapper:has(#button3:checked) .sliderLine {
         margin-left: -200%;
     }
-    .wrapper:has(#radio-btn4:checked) .sliderLine {
+    .wrapper:has(#button4:checked) .sliderLine {
         margin-left: -300%;
     }
 
-    .wrapper:has(#radio-btn1:checked) .textWrapper{
+    .wrapper:has(#button1:checked) .textWrapper{
         transform: translateY(0%);
     }
-    .wrapper:has(#radio-btn2:checked) .textWrapper{
+    .wrapper:has(#button2:checked) .textWrapper{
         transform: translateY(-28%);
     }
-    .wrapper:has(#radio-btn3:checked) .textWrapper{
+    .wrapper:has(#button3:checked) .textWrapper{
         transform: translateY(-56%);
     }
-    .wrapper:has(#radio-btn4:checked) .textWrapper{
+    .wrapper:has(#button4:checked) .textWrapper{
         transform: translateY(-84%);
     }
